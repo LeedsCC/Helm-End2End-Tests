@@ -43,7 +43,7 @@
       }
     },
 
-    "helm_ra" : {
+    "helm" : {
       "launch_url" : "https://helm-dev.ripple.foundation",
       "globals" : {
         "version_switch_host": "dev.ripple.foundation",
