@@ -1,0 +1,74 @@
+[
+  {
+    "host": "dev.ripple.foundation",
+    "path": "/api/patients/9999999000/",
+    "tab": "medications",
+    "field": "name",
+    "value": "ventolin"
+  },
+  {
+    "host": "dev.ripple.foundation",
+    "path": "/api/patients/9999999000/",
+    "tab": "allergies",
+    "field": "cause",
+    "value": "antibiotics"
+  },
+  {
+    "host": "dev.ripple.foundation",
+    "path": "/api/patients/9999999000/",
+    "tab": "allergies",
+    "field": "cause",
+    "value": "hepatitis"
+  },
+  {
+    "host": "dev.ripple.foundation",
+    "path": "/api/patients/9999999000/",
+    "tab": "contacts",
+    "field": "name",
+    "value": "evan"
+  },
+  {
+    "host": "dev.ripple.foundation",
+    "path": "/api/patients/9999999000/",
+    "tab": "contacts",
+    "field": "name",
+    "value": "braun"
+  },
+  {
+    "host": "dev.ripple.foundation",
+    "path": "/api/patients/9999999000/",
+    "tab": "personalnotes",
+    "field": "noteType",
+    "value": "patient-enquiry"
+  },
+  {
+    "host": "dev.ripple.foundation",
+    "path": "/api/patients/9999999000/",
+    "tab": "personalnotes",
+    "field": "noteType",
+    "value": "patient-enquiry"
+  },
+  {
+    "host": "dev.ripple.foundation",
+    "path": "/api/patients/9999999000/",
+    "tab": "problems",
+    "field": "problem",
+    "value": "bronchitis"
+  },
+  {
+    "host": "dev.ripple.foundation",
+    "path": "/api/patients/9999999000/",
+    "tab": "vaccinations",
+    "field": "vaccinationName",
+    "value": "antigen"
+  },
+  {
+    "host": "dev.ripple.foundation",
+    "path": "/api/patients/9999999000/",
+    "tab": "vaccinations",
+    "field": "vaccinationName",
+    "value": "hepatitis_a"
+  }
+]
+
+
