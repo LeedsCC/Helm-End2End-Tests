@@ -76,16 +76,10 @@ https://jenkins.io/
 * Go to http://138.68.171.243:8080
 * Log in with your account
 * In the center of the screen you see the table of the jobs. There are such jobs:
-    * Showcase Nightwatch Tests
-    * Dev React Nightwatch Tests
-    * Dev Angular Nightwatch Tests
     * Helm Nightwatch Tests
 * Each job pulls code from Github, runs Nightwatch tests and sends reports.
 * You can run the job by clicking on run button in the very right
 * Also jobs are run by cron timer:
-    * Showcase Nightwatch Tests is run Mon-Fri at 7.30 AM London time
-    * Dev React Nightwatch Tests is run Mon-Fri at 5.30 AM London time
-    * Dev Angular Nightwatch Tests is run Mon-Fri at 6.30 AM London time
     * Helm Nightwatch Tests is run Mon-Fri at 4.30 AM London time
 * After job is done, it will send out a email with test results.
     * Test report and build log are attached to the email
