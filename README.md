@@ -57,15 +57,13 @@ https://www.softwaretestinghelp.com/what-is-end-to-end-testing/
 Is a config file. See for full details http://nightwatchjs.org/gettingstarted/#settings-file 
 The important part besides paths to chrome driver and selenium server is the ability to set several environments. Environments contain information about your app url, selenium server url (which shouldn't be changed unless you are going to use remote servers like selenium grid or cloud solutions), whether to do screenshots and where to put those, etc. 
 
-There is a dev Helm version of the app, that is tested by End2End tests: http://dev.ripple.foundation:8000/
+Besides this, this file is used to set:
+1) launch URL of tested application;
+2) login and password for authorization;
+3) other information, which should be used in tests.
 
 You can easily run tests on by using the following command: **nightwatch --env=helm**
 
-Version switch is implemented with API calls, see globals.js. So if you want to add a new env with switching versions, make sure to set
-
-* "version_switch_host": "dev.ripple.foundation", - host of API calls
-* "version_switch_init_path": "/api/initialise", - to provide authorization
-* "version_switch_path": "/api/ui/version_name"
 
 # Jenkins
 Jenkins is the open-source automation server, which can be used for automated testing of software. Among others it can be used for browser automated testing.
@@ -73,7 +71,6 @@ Jenkins is the open-source automation server, which can be used for automated te
 For more information about Jenkins please see:
 https://jenkins.io/
 
-* Go to http://138.68.171.243:8080
 * Log in with your account
 * In the center of the screen you see the table of the jobs. There are such jobs:
     * Helm Nightwatch Tests
@@ -95,4 +92,3 @@ https://jenkins.io/
     * You can create users by going to Manage Jenkins menu, scrolling to the bottom and selecting Manage Users, further is intuitive
     * You can change mail setting by going to Manage Jenkins menu > Configuration, scrolling to the bottom and editing Extended Email Notification settings
 * When in doubt - click on a ? icon, it's often placed near changeable things
-* Last, but not least. Each jenkins job copies /home/rippletest/nightwatch.json to it's workspace. This is required to preserve path relative to jenkins machine. So if you change something in nightwatch.js file in code you should ssh to jenkins machine and do the changes in mentioned file too.

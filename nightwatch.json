@@ -19,7 +19,6 @@
 
   "test_settings" : {
     "default" : {
-      "launch_url" : "https://secureshowcase.ripple.foundation/",
       "selenium_port"  : 4444,
       "selenium_host"  : "localhost",
       "silent": true,
@@ -46,10 +45,6 @@
     "helm" : {
       "launch_url" : "https://helm-dev.ripple.foundation",
       "globals" : {
-        "version_switch_host": "dev.ripple.foundation",
-        "version_switch_port": "8000",
-        "version_switch_init_path": "/api/initialise",
-        "version_switch_path": "/api/ui/react",
         "settings" : {
           "base" : "React-Admin",
           "version" : "helm_ra",
