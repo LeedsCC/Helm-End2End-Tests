@@ -4,6 +4,7 @@
   "dependencies": {
     "chromedriver": "^2.38.3",
     "dateformat": "~3.0.2",
+    "lodash": "^4.17.11",
     "nightwatch-html-reporter": "^2.0.5"
   }
 }
