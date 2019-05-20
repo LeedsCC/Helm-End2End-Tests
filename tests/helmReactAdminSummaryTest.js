@@ -10,7 +10,8 @@ module.exports = {
 
             browser.page.loginPage().login();
 
-            browser.pause(browser.globals.wait_milliseconds_shortest);
+            browser.pause(120000);
+            // browser.pause(browser.globals.wait_milliseconds_shortest);
 
             var patientSummaryPage = browser.page.patientSummaryReactAdminPage();
 
