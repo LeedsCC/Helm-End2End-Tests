@@ -6,6 +6,8 @@ const isTestForCurrentBase = require('../utils/isTestForCurrentBase');
 module.exports = {
     'Helm React-Admin Test': function (browser) {
 
+        browser.deleteCookies();
+
         if (isTestChecked(browser, "helmReactAdminTopThreeThingsTest") || isTestForCurrentBase(browser, "React-Admin")) {
 
             browser.page.loginPage().login();
