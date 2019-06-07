@@ -12,7 +12,7 @@ module.exports = {
 
             browser.page.loginPage().login();
 
-            browser.pause(120000);
+            browser.pause(5000);
 
             // browser.pause(browser.globals.wait_milliseconds_shortest);
 
@@ -53,12 +53,12 @@ module.exports = {
             var topThreeThingsForm = topThreeThingsPage.section.topThreeThingsForm;
             topThreeThingsForm
                 .waitForElementVisible('@name1', browser.globals.wait_milliseconds)
-                .clearValue('@name1').setValue('@name1', 'test name 1')
-                .clearValue('@description1').setValue('@description1', 'test description 1')
-                .clearValue('@name2').setValue('@name2', 'test name 2')
-                .clearValue('@description2').setValue('@description2', 'test description 2')
-                .clearValue('@name3').setValue('@name3', 'test name 3')
-                .clearValue('@description3').setValue('@description3', 'test description 3')
+                .clearValue('@name1').setValue('@name1', 'testNameFirst')
+                .clearValue('@description1').setValue('@description1', 'testDescriptionFirst')
+                .clearValue('@name2').setValue('@name2', 'testNameSecond')
+                .clearValue('@description2').setValue('@description2', 'testDescriptionSecond')
+                .clearValue('@name3').setValue('@name3', 'testNameThird')
+                .clearValue('@description3').setValue('@description3', 'testDescriptionThird')
                 .click('@saveButton');
 
             browser.pause(5000);
