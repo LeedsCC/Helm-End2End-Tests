@@ -1,11 +1,12 @@
 {
   "name": "PulseTile-Tests",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "dependencies": {
     "chromedriver": "^2.38.3",
     "dateformat": "~3.0.2",
-    "extend": "^3.0.2",
-    "lodash": "^4.17.11",
+    "extend": ">=3.0.2",
+    "open": ">=6.0.0",
+    "lodash": ">=4.17.13",
     "nightwatch-html-reporter": "^2.0.5"
   }
 }
