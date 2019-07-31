@@ -43,7 +43,7 @@
     },
 
     "helm" : {
-      "launch_url" : "https://helm-dev.ripple.foundation",
+      "launch_url" : "https://helm-demo.ripple.foundation",
       "globals" : {
         "settings" : {
           "base" : "React-Admin",
