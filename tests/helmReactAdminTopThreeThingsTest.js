@@ -53,15 +53,15 @@ module.exports = {
             var topThreeThingsForm = topThreeThingsPage.section.topThreeThingsForm;
             topThreeThingsForm
                 .waitForElementVisible('@name1', browser.globals.wait_milliseconds)
-                .clearValue('@name1').setValue('@name1', 'testNameFirst')
-                .clearValue('@description1').setValue('@description1', 'testDescriptionFirst')
-                .clearValue('@name2').setValue('@name2', 'testNameSecond')
-                .clearValue('@description2').setValue('@description2', 'testDescriptionSecond')
-                .clearValue('@name3').setValue('@name3', 'testNameThird')
-                .clearValue('@description3').setValue('@description3', 'testDescriptionThird')
+                .clearValue('@name1').setValue('@name1', 'Hypertension')
+                .clearValue('@description1').setValue('@description1', 'Stress-related')
+                .clearValue('@name2').setValue('@name2', 'Migraine')
+                .clearValue('@description2').setValue('@description2', 'Stress-related')
+                .clearValue('@name3').setValue('@name3', 'Erythromycin')
+                .clearValue('@description3').setValue('@description3', 'Vomiting')
                 .click('@saveButton');
 
-            browser.pause(5000);
+            browser.pause(1000);
 
             // Redirect to Pstient Summary page
             sidebarMenu
